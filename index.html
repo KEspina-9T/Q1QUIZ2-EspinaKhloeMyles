@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coraline</title>
+    <style>
+        * {
+            margin: 0; 
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #303645;
+            font-family: Arial, sans-serif;
+            color: #F4DBD8;
+        }
+
+        .header {
+            background-image:url(https://64.media.tumblr.com/f2ecff736983c06411de5141d9e96560/ab8757e8ac414037-90/s250x400/5a6c8f16db56c44600fbf37c30de97998cedf363.jpg);
+            text-align: center;
+            padding: 10px;
+        }
+
+        .info {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .characters { 
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: center; 
+            margin: 20px;
+            background-image:url(https://64.media.tumblr.com/f2ecff736983c06411de5141d9e96560/ab8757e8ac414037-90/s250x400/5a6c8f16db56c44600fbf37c30de97998cedf363.jpg);
+        }
+
+        .card {
+            width: 150px; 
+            margin: 10px; 
+            border: 1px solid #ccc; 
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            display: flex;
+            flex-direction: column; 
+            align-items: center; 
+            background-color: #b9bda4; 
+        }
+
+        .card img {
+            width: 100%; 
+            border-radius: 10px 10px 0 0; 
+        }
+
+        .actors {
+            text-align: center; 
+            padding: 10px; 
+        }
+        .input{
+            margin-left: 25%;
+            margin-right: 25%;
+            padding-bottom: 60px;
+        }
+
+        .footer {
+            position: fixed; 
+            bottom: 0; 
+            width: 100%;
+            padding: 0px;
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Coraline</h1>
+    </div>
+
+    <div class="info">
+        <img src="https://images.moviesanywhere.com/705a4256da545c919cb80dbaad135ed3/898d1e00-10ef-48e1-90fc-d14b3f742470.webp?h=375&resize=fit&w=250" width="150">
+        <hr>
+        <p> Coraline is about a girl who moves into an old house, there she feels bored and ignored by her parents. <br /> She later finds a secret door which led to another world where she has caring parents. <br />However, something is different from them, they had buttons for eyes. The "other mother" tries to convince her to stay in the world forever, making her trapped.</p>
+        <br />
+    </div>
+
+    <h2 style="text-align: center;">Characters</h2>
+
+    <div class="characters">    
+        <div class="card">
+            <img src="https://static.wikia.nocookie.net/international-dubbing/images/6/61/Coraline.jpg/revision/latest?cb=20210210041059" alt="Coraline">
+            <div class="actors">
+                <a href="https://coraline.fandom.com/wiki/Coraline_Jones" target="_blank">Coraline Jones (Dakota Fanning)</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://static.wikia.nocookie.net/coraline/images/0/05/Wybie_Lovat.png/revision/latest?cb=20140411114954" alt="Wybie">
+            <div class="actors">
+                <a href="https://coraline.fandom.com/wiki/Wyborn_Lovat" target="_blank">Wyborn Lovat (Robert Bailey, Jr)</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://static.wikia.nocookie.net/parody/images/b/b4/Profile_-_Mel_Jones.png/revision/latest?cb=20200713030817" alt="Mel">
+            <div class="actors">
+                <a href="https://coraline.fandom.com/wiki/Mel_Jones" target="_blank">Melinda Jones (Teri Hatcher)</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://static.wikia.nocookie.net/characters/images/b/b9/The_Other_Mother.jpg/revision/latest?cb=20171008183822" alt="Other Mother">
+            <div class="actors">
+                <a href="https://coraline.fandom.com/wiki/The_Beldam_(Other_Mother)" target="_blank">The Other Mother</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://static.wikia.nocookie.net/parody/images/a/a7/Profile_-_Charlie_Jones.png/revision/latest?cb=20200713031252" alt="Charlie">
+            <div class="actors">
+                <a href="https://coraline.fandom.com/wiki/Charlie_Jones" target="_blank">Charles Jones (John Hodgman)</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://static.wikia.nocookie.net/p__/images/4/4d/Bf.jpg/revision/latest?cb=20210430080807&path-prefix=protagonist" alt="Other Father">
+            <div class="actors">
+                <a href="https://coraline.fandom.com/wiki/Other_Father?so=search" target="_blank">The Other Father</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h4 style="background-image:url(https://64.media.tumblr.com/f2ecff736983c06411de5141d9e96560/ab8757e8ac414037-90/s250x400/5a6c8f16db56c44600fbf37c30de97998cedf363.jpg);"><small>Khloe Myles S. Espina || 9-Topaz</small></h4>
+    </div>
+
+    <div class="input">
+        <h2>Did you enjoy Coraline as much as I did?</h2>
+        <br/>
+        <fieldset>
+            <legend><strong>Comments</strong></legend>
+                <center><textarea name="message" rows="5" cols="60" placeholder="What are your opinions?"></textarea></center>
+        </fieldset>
+        <br />
+        <fieldset>
+        <legend><strong>Movie Recommendations!</strong></legend>
+        <center>
+        <select name="Recommendation" id="Recommendations">
+            <option value="Ultraman: Rising (2024)">Ultraman: Rising (2024)</option>
+            <option value="Howl's Moving Castle (2004)">Howl's Moving Castle (2004)</option>
+            <option value="Kubo and the Two Strings (2016)">Kubo and the Two Strings (2016)</option>
+        </select>
+        </center>
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend><strong>Other Movie Recommendation?</strong></legend>
+                <center><p>Input Movie title!</p><textarea name="message" placeholder="Share them!"></textarea></center>
+        </fieldset>
+    <br />
+    <center><input type="submit" value="Submit"></center>
+    </div>
+</body>
+</html>
